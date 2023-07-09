@@ -2,7 +2,7 @@
 
 /* Estilo do banner */
 #home {
-    background-image: url('/assets/img/banner_bg.jpg');
+    background-image: url('/assets/img/banner_bg1.jpeg');
     background-size: cover;
     background-position: center;
     padding: 150px 0;
@@ -172,3 +172,16 @@
     line-height: 60px;
 }
 
+.image-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    margin-top: 50px; /* Ajuste a margem superior conforme necessário */
+}
+
+.image-content {
+    position: relative;
+    z-index: 2;
+    /* Estilos adicionais para o conteúdo da seção de imagem, se necessário */
+}
