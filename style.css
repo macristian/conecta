@@ -46,6 +46,7 @@
 
 /* Estilo das vantagens */
 #vantagens {
+    text-align: center;
     background-color: #f9f9f9;
     padding: 100px 0;
 }
