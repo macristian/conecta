@@ -8,10 +8,13 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <body>
     <!-- Seção Home -->
+    <!--
     <section id="home">
         <div class="container">
             <div class="row">
@@ -26,11 +29,47 @@
             </div>
         </div>
     </section>
+    -->
+
+    <!-- Slides -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img/banner-principal-1-3.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/banner-principal-2-3.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/banner-principal-3-3.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+
+        <!-- Controles -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+    </div>
 
     <!-- Seção Planos -->
-    <section id="plans">        
+    <section id="plans">
         <!-- Planos -->
         <div class="plans-container">
+                <!-- Seção Qualidade -->
+        <div class="container" id="vantagens">
+            <h2>Comprometimento em facilitar o acesso ao mundo digital!</h2>
+            <p>
+                Somos um Provedor que atende a falta de acesso à internet de qualidade a preços justos na região. Estamos trabalhando sempre com foco na qualidade dos serviços e atendimento diferenciado a cada um dos clientes. Buscamos através de investimento contínuo em estrutura e monitoramento constante,
+                oferecer uma relação de confiança com nosso parceiros.
+            </p>
+        </div>
             <div class="plan">
                 <div class="plan-image">
                     <img src="/assets/img/speed.png" width="185" alt="Speed" class="img-fluid">
@@ -47,7 +86,8 @@
                         <li>Alta velocidade de transmissão</li>
                     </ul>
                     <h2>R$ 49,90/<sub>mês</sub></h2>
-                    <a href="https://api.whatsapp.com/send?l=pt-br&phone=5582982130579&text=Eu%20quero!" class="btn btn-success">Contrate agora</a>
+                    <a href="https://api.whatsapp.com/send?l=pt-br&phone=5582982130579&text=Eu%20quero!"
+                        class="btn btn-success">Contrate agora</a>
                 </div>
             </div>
             <div class="plan">
@@ -59,13 +99,14 @@
                     <p>Cuidados com a saúde</p>
                     <ul class="package-list">
                         <li>Teleconsulta</li>
-                        <li>Consulta com Clínico Geral</li>
-                        <li>Consulta com Psicológo</li>
+                        <li>Atendimento Médico</li>
+                        <li>Atendimento Psicológico</li>
                         <li>Acompanhamento Nutricional</li>
                         <li>App de agendamento</li>
                     </ul>
                     <h2>R$ 29,90/<sub>pessoa</sub></h2>
-                    <a href="https://api.whatsapp.com/send?l=pt-br&phone=5582982130579&text=Eu%20quero!" class="btn btn-success">Contrate agora</a>
+                    <a href="https://api.whatsapp.com/send?l=pt-br&phone=5582982130579&text=Eu%20quero!"
+                        class="btn btn-success">Contrate agora</a>
                 </div>
             </div>
             <div class="plan">
@@ -78,12 +119,13 @@
                     <ul class="package-list">
                         <li>Carro, moto e caminhão</li>
                         <li>Cobertura à terceiros</li>
-                        <li>Guincho</li>
-                        <li>Colisão e incêndio</li>
-                        <li>Acidente</li>
+                        <li>Perda total</li>
+                        <li>Reboque</li>
+                        <li>E muito mais</li>
                     </ul>
                     <h2>À partir de R$ 50,00</h2>
-                    <a href="https://api.whatsapp.com/send?l=pt-br&phone=5582982130579&text=Eu%20quero!" class="btn btn-success">Contrate agora</a>
+                    <a href="https://api.whatsapp.com/send?l=pt-br&phone=5582982130579&text=Eu%20quero!"
+                        class="btn btn-success">Faça uma cotação</a>
                 </div>
             </div>
         </div>
@@ -123,18 +165,23 @@
             <div class="container">
                 <h2>Conecte-se à velocidade do futuro!</h2>
                 <p>Entre em contato conosco agora e garanta a melhor experiência!</p>
-                <a href="https://api.whatsapp.com/send?l=pt-br&phone=5582982130579&text=Eu%20quero!" class="btn btn-success">Entre em Contato</a>
+                <a href="https://api.whatsapp.com/send?l=pt-br&phone=5582982130579&text=Eu%20quero!"
+                    class="btn btn-success">Entre em Contato</a>
             </div>
         </section>
 
         <!-- Botão do WhatsApp -->
-    <a id="whatsapp-button" target="_blank" href="https://api.whatsapp.com/send?l=pt-br&phone=5582982130579&text=Eu%20quero!">
-        <i class="fa fa-whatsapp" aria-hidden="true"></i>
-        <img id="whatsapp-button" src="/assets/img/whatsapp.png">
-    </a>
+        <a id="whatsapp-button" target="_blank"
+            href="https://api.whatsapp.com/send?l=pt-br&phone=5582982130579&text=Eu%20quero!">
+            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+            <img id="whatsapp-button" src="/assets/img/whatsapp.png">
+        </a>
 
-    <script src="script.js"></script>    
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

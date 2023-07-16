@@ -1,5 +1,9 @@
 /* Estilos personalizados */
 
+p {
+    font-size: 20px;
+}
+
 /* Estilo do banner */
 #home {
     background-image: url('/assets/img/banner_bg1.jpeg');
