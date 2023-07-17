@@ -5,14 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clube Conecta - Provedor de Internet 5GHz</title>
+
+    <!-- CSS local -->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <!-- Bootstrap css local -->
+    <link rel="stylesheet" href="libs/bootstrap-5.1.1-dist/css/bootstrap.min.css">
+
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #beda1eff;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/wi-fi.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                Clube Conecta
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <!-- Seção Home -->
     <!--
     <section id="home">
@@ -32,10 +62,10 @@
     -->
 
     <!-- Slides -->
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="assets/img/banner-principal-1-3.png" class="d-block w-100" alt="...">
+                <img src="assets/img/banner-principal-1-3.png" class="d-block w-100" alt="Internet Veloz">
             </div>
             <div class="carousel-item">
                 <img src="assets/img/banner-principal-2-3.png" class="d-block w-100" alt="...">
@@ -62,14 +92,17 @@
     <section id="plans">
         <!-- Planos -->
         <div class="plans-container">
-                <!-- Seção Qualidade -->
-        <div class="container" id="vantagens">
-            <h2>Comprometimento em facilitar o acesso ao mundo digital!</h2>
-            <p>
-                Somos um Provedor que atende a falta de acesso à internet de qualidade a preços justos na região. Estamos trabalhando sempre com foco na qualidade dos serviços e atendimento diferenciado a cada um dos clientes. Buscamos através de investimento contínuo em estrutura e monitoramento constante,
-                oferecer uma relação de confiança com nosso parceiros.
-            </p>
-        </div>
+            
+            <!-- Seção Qualidade -->
+            <div class="container" id="vantagens">
+                <h2>Comprometimento em facilitar o acesso ao mundo digital!</h2>
+                <p>
+                    Somos um Provedor que atende a falta de acesso à internet de qualidade a preços justos na região.
+                    Estamos trabalhando sempre com foco na qualidade dos serviços e atendimento diferenciado a cada um
+                    dos clientes. Buscamos através de investimento contínuo em estrutura e monitoramento constante,
+                    oferecer uma relação de confiança com nosso parceiros.
+                </p>
+            </div>
             <div class="plan">
                 <div class="plan-image">
                     <img src="/assets/img/speed.png" width="185" alt="Speed" class="img-fluid">
@@ -176,6 +209,9 @@
             <i class="fa fa-whatsapp" aria-hidden="true"></i>
             <img id="whatsapp-button" src="/assets/img/whatsapp.png">
         </a>
+
+        <!-- Bootstrap local -->
+        <script src="libs/bootstrap-5.1.1-dist/js/bootstrap.bundle.min.js"></script>
 
         <script src="script.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
